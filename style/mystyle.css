@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+   
+
+}
+body{
+    overflow: hidden;}
+.mainContain >.Paragraph {
+    width: 50vh;
+    float: right;
+    height: 100vh;
+    margin: 50px;
+    margin-top: -80vh;
+    margin-right: 0vh;
+    padding: 10px;
+    background: linear-gradient(to right,white,whitesmoke);
+    
+    
+   
+}
+
+.tittle{
+    
+    color: rgb(94, 86, 81);
+    width: 45vh;
+    float: right;
+    height:10vh;
+    margin-top: -87vh;
+    margin-right: 3vh;
+   text-align: center;
+    
+}
+ 
+ul li{
+list-style: none;
+display: inline-flex;
+padding: 10px 30px;
+margin: 5px;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(23, 9, 59);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid black 2px;
+    height: 10vh;
+    background: linear-gradient(to right,white,whitesmoke,lightgray,whitesmoke);
+}
+.logo{
+    width: 250px;
+    height: 9.5vh;
+}
+.active{
+    background-color: gray;
+    border-radius: 50px;
+    
+}
+    
+ul li a:hover{
+    transition: all 0.2s ease-in 0s ;
+    background-color:gray;
+    padding: 9px 25px;
+    border-radius: 40px;
+}
+
+ul li a:active{
+    background-color:rgb(84, 103, 112);
+    color: rgb(133, 177, 133);
+}
+
+#d1{
+    background-image: url(../media/white.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75%;
+    height:90vh;
+  
+   
+}
+
+.Paragraph{
+    width: 25vh;
+    font-size: 16px;
+    
+}
+
+.btn{  
+    float: right;
+    margin-top: -7vh;
+    margin-right: -53vh;
+    text-align: center;
+    height: 35px;
+    width: 40vh;
+    border-radius: 40px;
+    
+}
+
